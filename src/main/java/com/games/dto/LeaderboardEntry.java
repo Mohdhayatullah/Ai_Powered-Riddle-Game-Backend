@@ -1,0 +1,1 @@
+package com.games.dto;import lombok.*;@Data@Builder@NoArgsConstructor@AllArgsConstructorpublic class LeaderboardEntry {    private Integer rank;    private String username;    private Integer totalScore;    private Integer correctAnswers;    private Integer bestStreak;}

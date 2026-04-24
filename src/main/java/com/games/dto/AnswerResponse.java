@@ -1,0 +1,1 @@
+package com.games.dto;import lombok.*;@Data@Builder@NoArgsConstructor@AllArgsConstructorpublic class AnswerResponse {    private boolean correct;    private String message;    private int scoreAwarded;    private int totalScore;    private int currentStreak;    private String correctAnswer; // only revealed when correct or max attempts reached}

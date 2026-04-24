@@ -1,0 +1,1 @@
+package com.games.dto;import jakarta.validation.constraints.NotBlank;import jakarta.validation.constraints.NotNull;import lombok.Data;@Datapublic class AnswerRequest {    @NotNull(message = "Riddle ID is required")    private Long riddleId;    @NotBlank(message = "Answer cannot be blank")    private String answer;}

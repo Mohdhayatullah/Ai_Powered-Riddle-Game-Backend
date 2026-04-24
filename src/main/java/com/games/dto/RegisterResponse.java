@@ -1,0 +1,1 @@
+package com.games.dto;import lombok.*;@Data@Builder@NoArgsConstructor@AllArgsConstructorpublic class RegisterResponse {    private Long id;    private String email;    private String username;    private String message;}

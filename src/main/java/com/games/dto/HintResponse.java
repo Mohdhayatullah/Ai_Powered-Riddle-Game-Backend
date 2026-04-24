@@ -1,0 +1,1 @@
+package com.games.dto;import lombok.*;@Data@Builder@NoArgsConstructor@AllArgsConstructorpublic class HintResponse {    private Long riddleId;    private String hint;        // stored hint from DB    private String aiHint;      // contextual AI-generated hint from chat memory}

@@ -1,0 +1,1 @@
+package com.games.dto;import com.games.entity.Riddle;import lombok.Data;@Datapublic class GenerateRiddleRequest {    private Riddle.Difficulty difficulty;    private Riddle.Category category;}
